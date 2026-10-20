@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["crates/rune-merge"]
+
+[workspace.package]
+edition = "2024"
+
+[workspace.lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+indexing_slicing = "warn"
